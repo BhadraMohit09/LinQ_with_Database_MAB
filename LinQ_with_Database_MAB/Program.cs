@@ -268,5 +268,7 @@ public class Program
         {
             Console.WriteLine(emp.FirstName + " | " + emp.JoiningDate);
         }
+
+        Console.WriteLine();
     }
 }
