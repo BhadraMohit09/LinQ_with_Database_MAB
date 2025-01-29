@@ -39,9 +39,10 @@ The `Employee` table includes the following fields:
    ```bash
    git clone https://github.com/BhadraMohit09/LinQ_with_Database_MAB.git
 
+> [!TIP]
 > ### Support 🧑‍🤝‍🧑
-If you find this project useful, consider showing your support!  
-You can support me via [Razorpay](https://razorpay.me/@mohitbhadra).
+> If you find this project useful, consider showing your support!  
+> You can support me via [Razorpay](https://razorpay.me/@mohitbhadra).
 
 Thank you for your encouragement! 😊
 
