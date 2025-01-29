@@ -1,4 +1,4 @@
-# LinQ_with_Database_MAB 📊💻
+> ### LinQ_with_Database_MAB 📊💻
 
 ## Description 📜
 This project demonstrates how to use LINQ queries with a SQL Server database using Entity Framework in C#. The project includes various queries like projections, filtering, aggregation, and sorting on an Employee table.
