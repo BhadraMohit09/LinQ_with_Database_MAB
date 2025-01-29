@@ -13,7 +13,7 @@ This project demonstrates how to use LINQ queries with a SQL Server database usi
   - Sorting employees by their names and joining date.
   - Aggregating salary data.
 
-## Technologies Used 🛠️
+### Technologies Used 🛠️
 - **C#**: For writing LINQ queries and interacting with the database.
 - **Entity Framework**: To map the database entities.
 - **SQL Server**: Used to store and query the employee data.
