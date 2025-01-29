@@ -34,7 +34,7 @@ The `Employee` table includes the following fields:
 - `Department` (varchar) - Department the employee works in.
 - `EmployeeId` (int) - Unique employee ID.
 
-## Setup 🛠️
+> ### Setup 🛠️
 1. Clone the repository:
    ```bash
    git clone https://github.com/BhadraMohit09/LinQ_with_Database_MAB.git
