@@ -3,7 +3,7 @@
 > ### Description 📜
 This project demonstrates how to use LINQ queries with a SQL Server database using Entity Framework in C#. The project includes various queries like projections, filtering, aggregation, and sorting on an Employee table.
 
-## Features 🌟
+> ### Features 🌟
 - **LINQ Queries**: Perform filtering, sorting, and projection on employee data.
 - **SQL Database Integration**: Uses Entity Framework to interact with a local SQL Server database.
 - **CRUD Operations**: Demonstrates how to perform common CRUD operations using LINQ.
