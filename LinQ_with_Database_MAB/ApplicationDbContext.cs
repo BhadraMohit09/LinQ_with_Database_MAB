@@ -13,7 +13,7 @@ namespace LinQ_with_Database_MAB
         public DbSet<Employee> Employee { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=LinQ_Queries;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer(@"Server=YourServerName;Database=LinQ_Queries;Trusted_Connection=True;TrustServerCertificate=True;");
         }
     }
 }
