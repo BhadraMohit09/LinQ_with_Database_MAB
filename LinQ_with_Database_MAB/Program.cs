@@ -170,5 +170,103 @@ public class Program
         {
             Console.WriteLine(emp.AccountNo + " | " + emp.FirstName + " | " + emp.Salary);
         }
+
+        Console.WriteLine();
+
+        // Find total salary
+        var totalSalary = context.Employee.Sum(e => e.Salary);
+        Console.WriteLine("Total Salary: " + totalSalary);
+
+        Console.WriteLine();
+
+        // Find total number of employees in Admin department from Rajkot
+        var adminRajkotCount = context.Employee.Count(e => e.Department == "Admin" && e.City == "Rajkot");
+        Console.WriteLine("Total Employees in Admin (Rajkot): " + adminRajkotCount);
+
+        Console.WriteLine();
+
+        // Find total salary of Distribution department
+        var totalDistributionSalary = context.Employee
+            .Where(e => e.Department == "Distribution")
+            .Sum(e => e.Salary);
+        Console.WriteLine("Total Salary of Distribution: " + totalDistributionSalary);
+
+        Console.WriteLine();
+
+        // Find average salary of IT department
+        var avgItSalary = context.Employee
+            .Where(e => e.Department == "IT")
+            .Average(e => e.Salary);
+        Console.WriteLine("Average Salary of IT: " + avgItSalary);
+
+        Console.WriteLine();
+
+        // Find minimum salary of Customer Relationship department
+        var minCustomerSalary = context.Employee
+            .Where(e => e.Department == "Customer Relationship")
+            .Min(e => e.Salary);
+        Console.WriteLine("Minimum Salary in Customer Relationship: " + minCustomerSalary);
+
+        Console.WriteLine();
+
+        // Find maximum salary of Distribution department in Baroda
+        var maxDistributionSalaryBaroda = context.Employee
+            .Where(e => e.Department == "Distribution" && e.City == "Baroda")
+            .Max(e => e.Salary);
+        Console.WriteLine("Max Salary in Distribution (Baroda): " + maxDistributionSalaryBaroda);
+
+        Console.WriteLine();
+
+        // Display employees by first name in ascending order
+        var sortedByFirstName = context.Employee.OrderBy(e => e.FirstName).ToList();
+        foreach (var emp in sortedByFirstName)
+        {
+            Console.WriteLine(emp.FirstName);
+        }
+
+        Console.WriteLine();
+
+        // Display employees by department name in descending order
+        var sortedByDepartment = context.Employee.OrderByDescending(e => e.Department).ToList();
+        foreach (var emp in sortedByDepartment)
+        {
+            Console.WriteLine(emp.Department + " | " + emp.FirstName);
+        }
+
+        Console.WriteLine();
+
+        // Display employees by department descending and first name ascending
+        var sortedByDeptAndName = context.Employee
+            .OrderByDescending(e => e.Department)
+            .ThenBy(e => e.FirstName)
+            .ToList();
+        foreach (var emp in sortedByDeptAndName)
+        {
+            Console.WriteLine(emp.Department + " | " + emp.FirstName);
+        }
+
+        Console.WriteLine();
+
+        // Display employees by first name ascending and last name descending
+        var sortedByFirstLast = context.Employee
+            .OrderBy(e => e.FirstName)
+            .ThenByDescending(e => e.LastName)
+            .ToList();
+        foreach (var emp in sortedByFirstLast)
+        {
+            Console.WriteLine(emp.FirstName + " | " + emp.LastName);
+        }
+
+        Console.WriteLine();
+
+        // Display employees by joining date in reverse order
+        var sortedByJoiningDate = context.Employee
+        .OrderByDescending(e => e.JoiningDate)
+        .ToList();
+
+        foreach (var emp in sortedByJoiningDate)
+        {
+            Console.WriteLine(emp.FirstName + " | " + emp.JoiningDate);
+        }
     }
 }
