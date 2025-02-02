@@ -45,7 +45,7 @@ The `Employee` table includes the following fields:
 > [!TIP]
 > ### Support 🧑‍🤝‍🧑
 > If you find this project useful, consider showing your support!  
-> You can support me via [Razorpay](https://razorpay.me/@mohitbhadra).
+> You can support me via [MAB](https://razorpay.me/@mohitbhadra).
 
 Thank you for your encouragement! 😊
 
