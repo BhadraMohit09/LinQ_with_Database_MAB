@@ -288,5 +288,7 @@ public class Program
                 Console.WriteLine(emp.FirstName + " " + emp.LastName);
             }
         }
+
+        Console.WriteLine();
     }
 }
