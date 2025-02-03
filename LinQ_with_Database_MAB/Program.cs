@@ -270,5 +270,23 @@ public class Program
         }
 
         Console.WriteLine();
+
+        // Display employees group by city 
+        IEnumerable<IGrouping<string, Employee>> groupByCity = context.Employee.GroupBy(e => e.City);
+
+        Console.WriteLine("Grouping by each City: ");
+
+
+        foreach (IGrouping<string, Employee> group in groupByCity) 
+        {
+            Console.WriteLine("City" + " | " + "Count");
+           
+            Console.WriteLine(group.Key + " | " + group.Count());
+
+            foreach (var emp in group)
+            {
+                Console.WriteLine(emp.FirstName + " " + emp.LastName);
+            }
+        }
     }
 }
