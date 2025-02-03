@@ -35,7 +35,7 @@ The `Employee` table includes the following fields:
 - `City` (varchar) - City where the employee is located.
 - `JoiningDate` (datetime) - Employee's joining date.
 - `Department` (varchar) - Department the employee works in.
-- `EmployeeId` (int) - Unique employee ID.
+- `EmployeeId` (int) - Unique Employee ID.
 
 > ### Setup 🛠️
 1. Clone the repository:
