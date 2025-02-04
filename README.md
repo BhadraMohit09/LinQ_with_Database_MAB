@@ -30,7 +30,7 @@ The `Employee` table includes the following fields:
 - `PhoneNo`: (varchar) - Employee's phone number.
 - `Salary`: (decimal) - Employee's salary.
 - `City`: (varchar) - City where the employee is located.
-- `JoiningDate` (datetime) - Employee's joining date.
+- `JoiningDate`: (datetime) - Employee's joining date.
 - `Department` (varchar) - Department the employee works in.
 - `EmployeeId` (int) - Unique Employee ID.
 
