@@ -3,7 +3,7 @@
 > #### Description 📜
 <p>This project demonstrates how to use LINQ queries with a SQL Server database using Entity Framework in C#. The project includes various queries like projections, filtering, aggregation, and sorting on an Employee table.</p>
 
-> ### Features 🌟
+> #### Features 🌟
 - **LINQ Queries**: Perform filtering, sorting, and projection on employee data.
 - **SQL Database Integration**: Uses Entity Framework to interact with a local SQL Server database.
 - **CRUD Operations**: Demonstrates how to perform common CRUD operations using LINQ.
@@ -40,6 +40,8 @@ The `Employee` table includes the following fields:
    git clone https://github.com/BhadraMohit09/LinQ_with_Database_MAB.git
 
 > [!TIP]
+> <img src="https://user-images.githubusercontent.com/65187002/144930161-2f783401-8d27-4fdf-a2f7-cc0ba32f1f1f.gif" width="80"/> 
+>
 > ### Support 🧑‍🤝‍🧑
 > If you find this project useful, consider showing your support!  
 > You can support me via [MAB](https://razorpay.me/@mohitbhadra).
