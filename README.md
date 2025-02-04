@@ -24,7 +24,7 @@ The `Employee` table includes the following fields:
 - `AccountNo`: (int) - Unique identifier for the account.
 - `FirstName`: (varchar) - Employee's first name.
 - `LastName`: (varchar) - Employee's last name.
-- `Gender` (varchar) - Employee's gender.
+- `Gender`: (varchar) - Employee's gender.
 - `Age` (int) - Employee's age.
 - `Email` (varchar) - Employee's email address.
 - `PhoneNo` (varchar) - Employee's phone number.
