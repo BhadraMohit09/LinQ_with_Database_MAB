@@ -28,7 +28,7 @@ The `Employee` table includes the following fields:
 - `Age` (int): - Employee's age.
 - `Email`: (varchar) - Employee's email address.
 - `PhoneNo`: (varchar) - Employee's phone number.
-- `Salary` (decimal) - Employee's salary.
+- `Salary`: (decimal) - Employee's salary.
 - `City` (varchar) - City where the employee is located.
 - `JoiningDate` (datetime) - Employee's joining date.
 - `Department` (varchar) - Department the employee works in.
