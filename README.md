@@ -19,7 +19,7 @@
 - **SQL Server**: Used to store and query the employee data.
 - **Visual Studio**: IDE used for project development.
 
-> ### Database Schema 📂
+> #### Database Schema 📂
 The `Employee` table includes the following fields:
 - `AccountNo` (int) - Unique identifier for the account.
 - `FirstName` (varchar) - Employee's first name.
