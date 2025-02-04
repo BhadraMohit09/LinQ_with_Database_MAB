@@ -21,7 +21,7 @@
 
 > #### Database Schema 📂
 The `Employee` table includes the following fields:
-- `AccountNo` (int) - Unique identifier for the account.
+- `AccountNo ` (int) - Unique identifier for the account.
 - `FirstName` (varchar) - Employee's first name.
 - `LastName` (varchar) - Employee's last name.
 - `Gender` (varchar) - Employee's gender.
